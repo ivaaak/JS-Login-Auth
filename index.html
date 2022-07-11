@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>JS Login Auth Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+
+<body> 
+    <h2>Register:</h2> 
+    <form id="register"> 
+        <input type="text" name="email" class="allInputs"> 
+        <input type="password" name="password" class="allInputs"> 
+        <input type="password" name="repass" class="allInputs"> 
+        <input type="submit" value="Register" class="allInputs"> 
+    </form> 
+    <br><br><br>
+    <h2>Login:</h2> 
+    <form id="login"> 
+        <input type="text" name="email" class="allInputs"> 
+        <input type="password" name="password" class="allInputs"> 
+        <input type="submit" value="Login" class="allInputs"> 
+    </form>
+
+    <br>
+    <!-- 
+	  this isnt needed as the token is taken from memory
+        <input type="text" name="token" id="token">
+    -->
+    <br>
+    <button class="allInputs">Make Authorized Request</button> 
+    <br><br><br>
+    <p>A JS demo application which showcases Login and Register functionality along with Authorization. <br>
+        It is meant to be used together with the SoftUni JS Server.<br>
+        Link to the server: <br>
+        <a href='https://github.com/softuni-practice-server/softuni-practice-server'>
+            https://github.com/softuni-practice-server/softuni-practice-server</a>
+    </p>
+    <script src="app.js"></script>
+</body>
